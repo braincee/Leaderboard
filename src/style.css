@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 0 4rem;
+}
+
+main {
+  display: flex;
+  padding: 0 6rem;
+  gap: 8rem;
+}
+
+.board-1 .board-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.board-1 .recent-goals {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.board-1 .recent-goals h2,
+.board-2 .recent-goals h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.board-2 form button {
+  display: flex;
+  align-self: flex-end;
+  width: 4rem;
+  height: 2rem;
+  padding: 5px;
+  background: rgb(240, 238, 238);
+  box-shadow: 1px 1px rgb(102, 99, 99);
+}
+
+.board-1 .recent-goals button {
+  width: 6rem;
+  height: 2rem;
+  padding: 5px;
+  background: rgb(240, 238, 238);
+  box-shadow: 1px 1px rgb(110, 106, 106);
+}
+
+.board-1 .table {
+  border: 3px solid rgb(131, 122, 122);
+  min-height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.board-1 .table .table-records {
+  list-style: none;
+  padding: 5px;
+}
+
+.board-1 .table .table-records:nth-child(odd) {
+  background: rgb(206, 204, 204);
+}
+
+.board-2 form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.board-2 form input {
+  border: 2px solid rgb(76, 71, 71);
+  padding: 10px;
+}
+
+.board-2 form input::placeholder {
+  color: rgb(107, 99, 99);
+}
