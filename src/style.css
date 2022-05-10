@@ -39,7 +39,7 @@ main {
   height: 2rem;
   padding: 5px;
   background: rgb(240, 238, 238);
-  box-shadow: 1px 1px rgb(87, 85, 85);
+  box-shadow: 1px 1px rgb(102, 99, 99);
 }
 
 .board-1 .recent-goals button {
@@ -47,11 +47,11 @@ main {
   height: 2rem;
   padding: 5px;
   background: rgb(240, 238, 238);
-  box-shadow: 1px 1px rgb(90, 87, 87);
+  box-shadow: 1px 1px rgb(110, 106, 106);
 }
 
 .board-1 .table {
-  border: 3px solid rgb(119, 112, 112);
+  border: 3px solid rgb(131, 122, 122);
   min-height: 50px;
   margin: 0;
   padding: 0;
@@ -73,10 +73,10 @@ main {
 }
 
 .board-2 form input {
-  border: 2px solid rgb(66, 62, 62);
+  border: 2px solid rgb(76, 71, 71);
   padding: 10px;
 }
 
 .board-2 form input::placeholder {
-  color: rgb(87, 80, 80);
+  color: rgb(107, 99, 99);
 }
