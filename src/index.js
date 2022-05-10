@@ -1,4 +1,4 @@
 import './style.css';
-import playerGoals from '../modules/goals.js';
+import playerGoals from './goals.js';
 
 document.addEventListener('DOMContentLoaded', playerGoals);

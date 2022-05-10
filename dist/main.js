@@ -110,13 +110,23 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/goals.js":
+/*!**********************!*\
+  !*** ./src/goals.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst goals = [\r\n    {\r\n        name: 'Ronaldo',\r\n        goals: 40,\r\n    },\r\n    {\r\n        name: 'Salah',\r\n        goals: 35,\r\n    },\r\n    {\r\n        name: 'Messi',\r\n        goals: 38,\r\n    },\r\n    {\r\n        name: 'Mbappe',\r\n        goals: 30,\r\n    },\r\n    {\r\n        name: 'Neymar',\r\n        goals: 27,\r\n    },\r\n    {\r\n        name: 'Lukaku',\r\n        goals: 25,\r\n    },\r\n];\r\n\r\nconst players = document.querySelector('.left-section .bottom');\r\n\r\nconst playerGoals = () => {\r\n    goals.forEach((goal) => {\r\n        const player = document.createElement('li');\r\n        player.className = 'list-item';\r\n        player.textContent = `${goal.name}: ${goal.goals}`;\r\n        players.appendChild(player);\r\n    });\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (playerGoals);\n\n//# sourceURL=webpack://leaderboard/./src/goals.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module '../modules/goals.js'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\r\n\r\n\r\ndocument.addEventListener('DOMContentLoaded', Object(function webpackMissingModule() { var e = new Error(\"Cannot find module '../modules/goals.js'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _goals_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./goals.js */ \"./src/goals.js\");\n\r\n\r\n\r\ndocument.addEventListener('DOMContentLoaded', _goals_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
 
 /***/ })
 
