@@ -4,79 +4,79 @@ body {
   box-sizing: border-box;
 }
 
-header {
-  padding: 2%;
+.header {
+  padding: 0 4rem;
 }
 
 main {
   display: flex;
-  padding: 0 4%;
-  gap: 10%;
+  padding: 0 6rem;
+  gap: 8rem;
 }
 
-.left-section,
-.right-section {
+.board-1 .board-2 {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 2rem;
 }
 
-.left-section .top {
+.board-1 .recent-goals {
   display: flex;
-  gap: 10px;
+  gap: 2rem;
+  padding: 2rem;
 }
 
-.left-section .top h2,
-.right-section .top h2 {
+.board-1 .recent-goals h2,
+.board-2 .recent-goals h2 {
   padding: 0;
   margin: 0;
 }
 
-.right-section form button {
+.board-2 form button {
   display: flex;
   align-self: flex-end;
-  width: max-content;
-  height: max-content;
+  width: 4rem;
+  height: 2rem;
   padding: 5px;
-  background: #fff;
+  background: rgb(240, 238, 238);
   box-shadow: 1px 1px rgb(87, 85, 85);
 }
 
-.left-section .top button {
-  width: max-content;
-  height: max-content;
+.board-1 .recent-goals button {
+  width: 6rem;
+  height: 2rem;
   padding: 5px;
-  background: #fff;
+  background: rgb(240, 238, 238);
   box-shadow: 1px 1px rgb(90, 87, 87);
 }
 
-.left-section .bottom {
-  border: 2px solid rgb(119, 112, 112);
+.board-1 .table {
+  border: 3px solid rgb(119, 112, 112);
   min-height: 50px;
   margin: 0;
   padding: 0;
 }
 
-.left-section .bottom .list-item {
+.board-1 .table .table-records {
   list-style: none;
-  padding: 2%;
+  padding: 5px;
 }
 
-.left-section .bottom .list-item:nth-child(odd) {
+.board-1 .table .table-records:nth-child(odd) {
   background: rgb(206, 204, 204);
 }
 
-.right-section form {
+.board-2 form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.right-section form input {
+.board-2 form input {
   border: 2px solid rgb(66, 62, 62);
-  padding: 2%;
+  padding: 10px;
 }
 
-.right-section form input::placeholder {
+.board-2 form input::placeholder {
   color: rgb(87, 80, 80);
 }

@@ -25,12 +25,12 @@ const goals = [
   },
 ];
 
-const players = document.querySelector('.left-section .bottom');
+const players = document.querySelector('.board-1 .table');
 
 const playerGoals = () => {
   goals.forEach((goal) => {
     const player = document.createElement('li');
-    player.className = 'list-item';
+    player.className = 'table-records';
     player.textContent = `${goal.name}: ${goal.goals}`;
     players.appendChild(player);
   });
