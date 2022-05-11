@@ -8,7 +8,8 @@ body {
 .header {
   padding: 0 4rem;
   color: #a26769;
-  font-size: 48px;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
@@ -36,6 +37,7 @@ main {
   margin: 0;
   font-size: 28px;
   color: #a26769;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .board-2 form button {
@@ -45,6 +47,7 @@ main {
   height: 2rem;
   padding: 5px;
   background: #e0cccd;
+  font-family: Arial, Helvetica, sans-serif;
   box-shadow: 2px 2px rgb(228, 121, 121);
   transition: transform 300ms ease-in;
 }
@@ -77,6 +80,11 @@ main {
   padding: 0;
   font-size: 18px;
   color: #3a1825;
+}
+
+.board-2 .table {
+  color: #a26769;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .board-1 .table .table-records {
