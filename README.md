@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
    ```
 
 
-## Screenshots of Todo List
+## Screenshots of Leaderboard
 
 ![]()
 
