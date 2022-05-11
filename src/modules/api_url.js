@@ -1,13 +1,13 @@
 const apiUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
 
 export const newGame = async () => {
-  const data = { name: 'My new Game' };
+  const response = { name: 'My new Game' };
   const result = await fetch(`${apiUrl}/games/`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify(data),
+    body: JSON.stringify(response),
   });
   await result.json();
 };
@@ -21,13 +21,13 @@ export const urlScores = async () => {
 };
 
 export const newScore = async (user, score) => {
-  const data = { user, score };
+  const response = { user, score };
   const result = await fetch(`${apiUrl}/games/uFmmrkKjMO7S5RsdkjfE/scores`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify(data),
+    body: JSON.stringify(response),
   });
   return result.json();
 };
