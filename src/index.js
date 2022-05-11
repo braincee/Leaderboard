@@ -8,7 +8,7 @@ const form = document.querySelector('.name-score');
 const newScoreApi = () => {
   const name = form.elements.name.value;
   const score = form.elements.score.value;
-  if (score !== '' && name !== '') {
+  if (name !== '' && score !== '') {
     newScore(name, score);
   }
 };
