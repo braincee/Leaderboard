@@ -20,14 +20,14 @@ main {
   gap: 2rem;
 }
 
-.board-1 .recent-goals {
+.board-1 .recent-score {
   display: flex;
   gap: 2rem;
   padding: 2rem;
 }
 
-.board-1 .recent-goals h2,
-.board-2 .recent-goals h2 {
+.board-1 .recent-score h2,
+.board-2 .recent-score h2 {
   padding: 0;
   margin: 0;
 }
@@ -42,7 +42,7 @@ main {
   box-shadow: 1px 1px rgb(102, 99, 99);
 }
 
-.board-1 .recent-goals button {
+.board-1 .recent-score button {
   width: 6rem;
   height: 2rem;
   padding: 5px;
