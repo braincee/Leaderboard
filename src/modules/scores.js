@@ -7,7 +7,7 @@ const outcomeScores = async () => {
   newScore.result.forEach((score) => {
     const person = document.createElement('li');
     const span = document.createElement('span');
-    span.textContent = score.score;
+    span.textContent = `${score.score}`;
     person.className = 'table-records';
     person.textContent = `${score.user}`;
     person.appendChild(span);
