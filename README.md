@@ -35,15 +35,13 @@ To get a local copy up and running follow these simple example steps.
 
 ## Screenshots of Leaderboard
 
-![]()
+![](./laptop.png)
 
 ## Live Demo 🔗
 
 
-Check the live demo [here]()👈
+Check the live demo [here]( https://braincee.github.io/Leaderboard/)👈
 
-
-![]()
 
 ## Author
 

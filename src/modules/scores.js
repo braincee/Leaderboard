@@ -9,7 +9,7 @@ const outcomeScores = async () => {
     const span = document.createElement('span');
     span.textContent = score.score;
     person.className = 'table-records';
-    person.textContent = `${score.user}:`;
+    person.textContent = `${score.user}`;
     person.appendChild(span);
     persons.appendChild(person);
   });

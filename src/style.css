@@ -2,14 +2,19 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: #ece2d0;
 }
 
 .header {
   padding: 0 4rem;
+  color: #a26769;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
   display: flex;
+  justify-content: space-evenly;
   padding: 0 6rem;
   gap: 8rem;
 }
@@ -30,6 +35,9 @@ main {
 .board-2 .recent-score h2 {
   padding: 0;
   margin: 0;
+  font-size: 28px;
+  color: #a26769;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .board-2 form button {
@@ -38,45 +46,73 @@ main {
   width: 4rem;
   height: 2rem;
   padding: 5px;
-  background: rgb(240, 238, 238);
-  box-shadow: 1px 1px rgb(102, 99, 99);
+  background: #e0cccd;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 2px 2px rgb(228, 121, 121);
+  transition: transform 300ms ease-in;
+}
+
+.submit:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  border-radius: 15px;
 }
 
 .board-1 .recent-score button {
   width: 6rem;
   height: 2rem;
   padding: 5px;
-  background: rgb(240, 238, 238);
-  box-shadow: 1px 1px rgb(110, 106, 106);
+  background: #e0cccd;
+  box-shadow: 2px 2px rgb(228, 139, 139);
+  transition: transform 300ms ease-in;
+}
+
+.refresh:hover {
+  cursor: pointer;
+  border-radius: 15px;
+  transform: scale(1.05);
 }
 
 .board-1 .table {
-  border: 3px solid rgb(131, 122, 122);
+  border: 2px solid #cebebe;
   min-height: 50px;
   margin: 0;
   padding: 0;
+  font-size: 18px;
+  color: #3a1825;
+}
+
+.board-2 .table {
+  color: #a26769;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .board-1 .table .table-records {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   padding: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .board-1 .table .table-records:nth-child(odd) {
-  background: rgb(206, 204, 204);
+  background: #cebebe;
 }
 
 .board-2 form {
   display: flex;
   flex-direction: column;
+  width: 19rem;
   gap: 15px;
 }
 
 .board-2 form input {
   border: 2px solid rgb(76, 71, 71);
   padding: 10px;
+  border-radius: 10px;
 }
 
 .board-2 form input::placeholder {
-  color: rgb(107, 99, 99);
+  color: #a26769;
+  font-size: 15px;
 }
